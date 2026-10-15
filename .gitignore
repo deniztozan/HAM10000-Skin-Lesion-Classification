@@ -1,0 +1,127 @@
+# ============================================
+# HAM10000 - Skin Lesion Classification Project
+# ============================================
+
+# --------------------------------------------
+# 1. DATASET
+# --------------------------------------------
+
+# Original skin lesion images
+images/
+**/images/
+
+# Segmentation masks
+masks/
+**/masks/
+
+# Ground Truth labels
+GroundTruth.csv
+**/GroundTruth.csv
+
+# Downloaded datasets and archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+
+# --------------------------------------------
+# 2. PYTHON CACHE
+# --------------------------------------------
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# --------------------------------------------
+# 3. VIRTUAL ENVIRONMENTS
+# --------------------------------------------
+
+.venv/
+venv/
+env/
+ENV/
+dl_env/
+.conda/
+
+
+# --------------------------------------------
+# 4. JUPYTER NOTEBOOK
+# --------------------------------------------
+
+.ipynb_checkpoints/
+
+
+# --------------------------------------------
+# 5. VS CODE
+# --------------------------------------------
+
+.vscode/
+
+# --------------------------------------------
+# 6. MACHINE LEARNING MODELS
+# --------------------------------------------
+
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+
+# --------------------------------------------
+# 7. GENERATED FEATURES AND DATA
+# --------------------------------------------
+
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Generated outputs
+outputs/
+results/
+checkpoints/
+logs/
+
+
+# --------------------------------------------
+# 8. TEMPORARY FILES
+# --------------------------------------------
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+.DS_Store
+Thumbs.db
+
+
+# --------------------------------------------
+# 9. ENVIRONMENT VARIABLES
+# --------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+
+# --------------------------------------------
+# 10. KEEP SOURCE CODE
+# --------------------------------------------
+
+# These files are NOT ignored:
+# src/
+# notebooks/
+# README.md
+# requirements.txt
+# main.py
