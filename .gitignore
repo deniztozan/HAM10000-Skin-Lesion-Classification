@@ -51,7 +51,7 @@ dl_env/
 # --------------------------------------------
 # 4. JUPYTER NOTEBOOK
 # --------------------------------------------
-
+notebooks/eskiler
 .ipynb_checkpoints/
 
 
@@ -90,8 +90,11 @@ outputs/
 results/
 checkpoints/
 logs/
-
-
+notebooks/renkli/
+notebooks/eskiler/
+src/eski_src/
+# Generated data and model outputs
+outputs/
 # --------------------------------------------
 # 8. TEMPORARY FILES
 # --------------------------------------------
