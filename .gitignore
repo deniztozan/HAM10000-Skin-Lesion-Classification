@@ -92,6 +92,7 @@ checkpoints/
 logs/
 notebooks/renkli/
 notebooks/eskiler/
+notebooks/deep/
 src/eski_src/
 # Generated data and model outputs
 outputs/
